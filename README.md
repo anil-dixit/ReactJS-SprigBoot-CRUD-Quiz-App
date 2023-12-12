@@ -1,4 +1,6 @@
-//data  for the demo 
+//some questions entry for the Quiz. we need to create quiz manually using postman then we can see the Quiz in QuizList.  
+
+
 
 INSERT INTO public.question(
     id, category, diffiulty_level, option1, option2, option3, option4, question_title, right_answer)
