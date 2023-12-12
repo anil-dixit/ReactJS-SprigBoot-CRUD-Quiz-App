@@ -2,11 +2,8 @@
 
 
 
-INSERT INTO public.question(
-    id, category, diffiulty_level, option1, option2, option3, option4, question_title, right_answer)
-VALUES
+INSERT INTO public.question(id, category, diffiulty_level, option1, option2, option3, option4, question_title, right_answer)VALUES
     (1, 'Java', 'Easy', 'A. int x = 5;', 'B. float x = 5.0f;', 'C. double x = 5.0;', 'D. String x = "5";', 'What is the correct way to declare an integer variable in Java?', 'A. int x = 5;'),
-
     (2, 'JavaScript', 'Easy', 'A. let x = 5;', 'B. var x = 5;', 'C. const x = 5;', 'D. int x = 5;', 'How do you declare a variable in JavaScript?', 'A. let x = 5;'),
 
     (3, 'Java', 'Easy', 'A. ==', 'B. =', 'C. ===', 'D. !=', 'Which operator is used for equality comparison in Java?', 'A. =='),
