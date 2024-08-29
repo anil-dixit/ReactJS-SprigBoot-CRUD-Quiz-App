@@ -1,1 +1,1 @@
-example for restore
+example for restore from feature branch
